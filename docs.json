@@ -29,6 +29,7 @@
             "group": "Admin Documentation",
             "pages": [
               "admin-console/introduction",
+              "admin-console/login",
               "admin-console/environments"
             ]
           }
