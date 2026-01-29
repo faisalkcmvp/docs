@@ -40,7 +40,21 @@
           {
             "group": "Mobile App Guide",
             "pages": [
-              "mobile-app/introduction",
+              "mobile-app/introduction"
+            ]
+          },
+          {
+            "group": "Login",
+            "pages": [
+              "mobile-app/login",
+              "mobile-app/login-email",
+              "mobile-app/login-phone",
+              "mobile-app/login-social"
+            ]
+          },
+          {
+            "group": "Environments",
+            "pages": [
               "mobile-app/environments"
             ]
           }
