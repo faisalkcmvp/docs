@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "EPIC Systems Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -17,70 +17,60 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "before-you-start"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Admin Console",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Admin Documentation",
             "pages": [
-              "api-reference/introduction"
+              "admin-console/introduction",
+              "admin-console/environments"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Mobile App",
+        "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "Mobile App Guide",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "mobile-app/introduction",
+              "mobile-app/environments"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Website",
+        "groups": [
+          {
+            "group": "Website Guide",
+            "pages": [
+              "website/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Instructor App",
+        "groups": [
+          {
+            "group": "Instructor Guide",
+            "pages": [
+              "instructor-app/introduction"
             ]
           }
         ]
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {
@@ -102,15 +92,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
